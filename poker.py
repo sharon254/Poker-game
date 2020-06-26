@@ -112,7 +112,7 @@ def hand(dice):
 
 
 def play_again():
-    answer = raw_input("would you like to play again? y/n: ")
+    answer = input("would you like to play again? y/n: ")
     if answer in ("y", "Y", "yes", "Yes", "Of course!"):
         return answer
     else:
